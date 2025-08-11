@@ -13,11 +13,11 @@ export default defineConfig({
           name: "app1",
           entry: "http://localhost:5174/remoteEntry.js", // points to app1
         },
-        app2: {
-          type: "module",
-          name: "app2",
-          entry: "http://localhost:5175/remoteEntry.js", // points to app2
-        },
+        // app2: {
+        //   type: "module",
+        //   name: "app2",
+        //   entry: "http://localhost:5175/remoteEntry.js", // points to app2
+        // },
       },
       shared: ['react', 'react-dom'],
     }),
